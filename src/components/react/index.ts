@@ -10,6 +10,11 @@ module.exports = {
       { name: 'Link', linkAttribute: 'to' },
     ],
   },
+  parserOptions: {
+    ecmaFeatures: {
+      jsx: true,
+    },
+  },
   extends: [
     './best-practices',
     './possible-errors',
