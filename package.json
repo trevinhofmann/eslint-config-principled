@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-principled",
-  "version": "1.0.1-0",
+  "version": "1.0.1",
   "description": "A principle-based ESLint configuration for projects supporting TypeScript, React, and Jest",
   "scripts": {
     "commit": "cz",
