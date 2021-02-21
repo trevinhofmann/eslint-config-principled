@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### 1.0.1-0 (2021-02-21)
+
+
+### Bug Fixes
+
+* **react:** add the required parserOption 'jsx' ([d019d8c](https://github.com/trevinhofmann/eslint-config-principled/commit/d019d8c61b7280dc9ea6c803e9935335281253ef))
+
 ## 1.0.0 (2021-02-21)
 
 
