@@ -410,4 +410,4 @@ module.exports = {
     // Enabled for Linting Principle 2: Consistency
     'yoda': WARN,
   },
-}
+};
