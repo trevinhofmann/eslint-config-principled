@@ -115,8 +115,9 @@ module.exports = {
 
     // require identifiers to match a specified regular expression
     // https://eslint.org/docs/rules/id-match
-    // Disabled for Linting Principle 3: Flexibility
-    'id-match': OFF,
+    // The Invisible JavaScript Backdoor: https://certitude.consulting/blog/en/invisible-backdoor/
+    // Enable for Linting Principle 1: Correctness
+    'id-match': [ERROR, '^[a-zA-Z]+[a-zA-Z0-9_]*$'],
 
     // enforce the location of arrow function bodies
     // https://eslint.org/docs/rules/implicit-arrow-linebreak
