@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## 1.1.0 (2021-11-10)
+
+
+### Features
+
+* use id-match to limit identifier characters, preventing possible backdoors with invisible/nonstandard characters ([d1c8621](https://github.com/trevinhofmann/eslint-config-principled/commit/d1c8621ec797c2932a21d47e2e21ecf59773ae80))
+
 ### 1.0.2 (2021-07-22)
 
 
