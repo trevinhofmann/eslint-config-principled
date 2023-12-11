@@ -48,9 +48,9 @@
     "eslint-plugin-react-hooks": "^4.2.0"
   },
   "devDependencies": {
-    "@babel/core": "7.12.17",
-    "@babel/preset-env": "7.12.17",
-    "@babel/preset-typescript": "7.12.17",
+    "@babel/core": "7.23.6",
+    "@babel/preset-env": "7.23.6",
+    "@babel/preset-typescript": "7.23.3",
     "@commitlint/cli": "17.8.0",
     "@commitlint/config-conventional": "17.8.0",
     "@types/node": "14.14.31",
