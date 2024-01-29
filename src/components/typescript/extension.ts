@@ -77,12 +77,6 @@ module.exports = {
     'no-dupe-class-members': OFF,
     '@typescript-eslint/no-dupe-class-members': ERROR,
 
-    // Disallow duplicate imports
-    // https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/docs/rules/no-duplicate-imports.md
-    // Enabled for Linting Principle 1: Correctness
-    'no-duplicate-imports': OFF,
-    '@typescript-eslint/no-duplicate-imports': ERROR,
-
     // Disallow empty functions
     // https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/docs/rules/no-empty-function.md
     // Enabled for Linting Principle 1: Correctness
