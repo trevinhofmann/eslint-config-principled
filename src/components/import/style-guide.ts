@@ -1,4 +1,4 @@
-import { OFF, WARN } from '../../constants';
+import { OFF, WARN, ERROR } from '../../constants';
 
 module.exports = {
   rules: {
@@ -14,8 +14,9 @@ module.exports = {
 
     // Report repeated import of the same module in multiple places
     // https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/no-duplicates.md
-    // Enabled for Linting Principle 2: Consistency
-    'import/no-duplicates': WARN,
+    // Enabled for Linting Principle 1: Correctness
+    'no-duplicate-imports': OFF,
+    'import/no-duplicates': ERROR,
 
     // Forbid namespace (a.k.a. "wildcard" `*`) imports
     // https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/no-namespace.md
