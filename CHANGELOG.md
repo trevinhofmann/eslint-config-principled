@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### 1.1.1-2 (2024-01-29)
+
+
+### Bug Fixes
+
+* remove the deprecated jest rules ([1d9890d](https://github.com/trevinhofmann/eslint-config-principled/commit/1d9890d707c70dd21f0b7307b0b44854bd628263))
+
 ### 1.1.1-1 (2024-01-29)
 
 ### 1.1.1-0 (2024-01-25)
