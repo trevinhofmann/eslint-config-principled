@@ -12,13 +12,6 @@ module.exports = {
     // Enabled for Linting Principle 1: Correctness
     'jest/expect-expect': ERROR,
 
-    // Enforce lowercase test names
-    // https://github.com/jest-community/eslint-plugin-jest/blob/master/docs/rules/lowercase-name.md
-    // Enabled for Linting Principle 1: Correctness
-    'jest/lowercase-name': [ERROR, {
-      ignoreTopLevelDescribe: true,
-    }],
-
     // Disallow alias methods
     // https://github.com/jest-community/eslint-plugin-jest/blob/master/docs/rules/no-alias-methods.md
     // Enabled for Linting Principle 3: Flexibility
@@ -89,11 +82,6 @@ module.exports = {
     // Enabled for Linting Principle 1: Correctness
     'jest/no-jasmine-globals': ERROR,
 
-    // Disallow importing Jest
-    // https://github.com/jest-community/eslint-plugin-jest/blob/master/docs/rules/no-jest-import.md
-    // Enabled for Linting Principle 1: Correctness
-    'jest/no-jest-import': ERROR,
-
     // disallow large snapshots
     // https://github.com/jest-community/eslint-plugin-jest/blob/master/docs/rules/no-large-snapshots.md
     // Enabled for Linting Principle 3: Flexibility
@@ -126,11 +114,6 @@ module.exports = {
     // Enabled for Linting Principle 1: Correctness
     'jest/no-test-return-statement': ERROR,
 
-    // Disallow using `toBeTruthy()` & `toBeFalsy()`
-    // https://github.com/jest-community/eslint-plugin-jest/blob/master/docs/rules/no-truthy-falsy.md
-    // Enabled for Linting Principle 2: Consistency
-    'jest/no-truthy-falsy': WARN,
-
     // Suggest using `toBeCalledWith()` or `toHaveBeenCalledWith()`
     // https://github.com/jest-community/eslint-plugin-jest/blob/master/docs/rules/prefer-called-with.md
     // Enabled for Linting Principle 1: Correctness
@@ -160,16 +143,6 @@ module.exports = {
     // https://github.com/jest-community/eslint-plugin-jest/blob/master/docs/rules/prefer-strict-equal.md
     // Enabled for Linting Principle 1: Correctness
     'jest/prefer-strict-equal': ERROR,
-
-    // Suggest using `toBeNull()`
-    // https://github.com/jest-community/eslint-plugin-jest/blob/master/docs/rules/prefer-to-be-null.md
-    // Enabled for Linting Principle 2: Consistency
-    'jest/prefer-to-be-null': WARN,
-
-    // Suggest using `toBeUndefined()`
-    // https://github.com/jest-community/eslint-plugin-jest/blob/master/docs/rules/prefer-to-be-undefined.md
-    // Enabled for Linting Principle 2: Consistency
-    'jest/prefer-to-be-undefined': WARN,
 
     // Suggest using `toContain()`
     // https://github.com/jest-community/eslint-plugin-jest/blob/master/docs/rules/prefer-to-contain.md
