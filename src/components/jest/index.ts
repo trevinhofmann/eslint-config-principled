@@ -3,8 +3,7 @@ module.exports = {
     'jest',
   ],
   extends: [
-    './best-practices',
-    './possible-errors',
+    './base',
   ].map(path => require.resolve(path)),
   // env: {
   //   'jest/globals': true,
