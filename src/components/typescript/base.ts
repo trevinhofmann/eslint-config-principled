@@ -155,11 +155,6 @@ module.exports = {
     // Enabled for Linting Principle 1: Correctness
     '@typescript-eslint/no-for-in-array': ERROR,
 
-    // Disallow usage of the implicit `any` type in catch clauses
-    // https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/docs/rules/no-implicit-any-catch.md
-    // Enabled for Linting Principle 1: Correctness
-    '@typescript-eslint/no-implicit-any-catch': ERROR,
-
     // Disallows explicit type declarations for variables or parameters
     // initialized to a number, string, or boolean
     // https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/docs/rules/no-inferrable-types.md
