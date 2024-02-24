@@ -59,7 +59,7 @@
     "babel-jest": "29.7.0",
     "commitizen": "4.3.0",
     "cz-conventional-changelog": "3.3.0",
-    "eslint": "8.56.0",
+    "eslint": "8.57.0",
     "eslint-plugin-import": "2.29.1",
     "eslint-plugin-jest": "27.6.3",
     "eslint-plugin-react": "7.33.2",
